@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "experiment": {
+    "repository": "https://github.com/renanfranca/seed4j-cli-hangman-kata",
+    "specificationPath": "SPEC.md",
+    "specificationSha256": "692a642823832ec6e1e685b3bd8f94139a2260e86be99d022ecca497254994c3",
+    "baseBranch": "hangman-kata-seed4j-base",
+    "baseCommit": "8a3c3b5cfc1f520d3ab4d069ddc219de724c6e9e"
+  },
+  "run": {
+    "executionIndex": 1,
+    "alias": "luna-xhigh",
+    "branch": "hangman-kata-luna-xhigh",
+    "model": "gpt-5.6-luna",
+    "reasoningEffort": "xhigh",
+    "taskId": "01a083d4-734f-7e53-bf08-2d442a0fa94d",
+    "taskTitle": "hangman-kata-luna-xhigh",
+    "prompt": "Implement the specification in SPEC.md using the already-installed Seed4J CLI tool as support.",
+    "promptSha256": "06ac1ad554b276bfd6227d0eda17408d4421bfd95a5a5a5afe1c417061003283",
+    "status": "failed",
+    "deliveryActor": "model",
+    "implementationCommit": "9613f8eeaa5d1375c9e595ea5ab44ce63b0896dc"
+  },
+  "seed4j": {
+    "cliVersion": "0.0.4",
+    "runtimeVersion": "2.2.0",
+    "runtimeMode": "standard",
+    "skillTreeSha256": "93b17f5b4a53d747f2b33f815984c56b297f52859b1f1825f8cce44eadba078c"
+  },
+  "validation": {
+    "command": "mvn verify",
+    "exitCode": 127,
+    "summary": "The repository-native Maven validation could not start because the mvn executable is unavailable."
+  },
+  "transcript": {
+    "path": "CONVERSATION_TRANSCRIPT.md",
+    "source": "Codex rollout JSONL",
+    "lastOrdinal": 287,
+    "sha256": "22bc7fda5883fd2ed8da389aa73d4f370492c806223cd53f0618f5ac8232bd61"
+  }
+}
