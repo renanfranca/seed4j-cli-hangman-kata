@@ -135,3 +135,5 @@ Desktop.ini
 .scannerwork/
 # Approval Testing
 src/test/resources/**/*.received.txt
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
