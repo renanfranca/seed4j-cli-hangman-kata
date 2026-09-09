@@ -133,3 +133,5 @@ Desktop.ini
 # Sonar
 ######################
 .scannerwork/
+# Approval Testing
+src/test/resources/**/*.received.txt

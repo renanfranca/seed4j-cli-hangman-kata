@@ -1,0 +1,12 @@
+{
+  "module" : "approval-tests",
+  "date" : "2026-09-09T02:03:59.650153482Z",
+  "properties" : {
+    "endOfLine" : "lf",
+    "packageName" : "com.github.renanfranca.hangman",
+    "projectName" : "Hangman Kata",
+    "nodePackageManager" : "npm",
+    "indentSize" : 2,
+    "baseName" : "hangmanKata"
+  }
+}

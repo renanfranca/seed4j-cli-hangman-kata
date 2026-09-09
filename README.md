@@ -34,5 +34,6 @@ npm install
 
 ## Documentation
 
+- [Approval Testing](documentation/approval-testing.md)
 
 <!-- seed4j-needle-documentation -->
