@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "experiment": {
+    "repository": "https://github.com/renanfranca/seed4j-cli-hangman-kata",
+    "specificationPath": "SPEC.md",
+    "specificationSha256": "692a642823832ec6e1e685b3bd8f94139a2260e86be99d022ecca497254994c3",
+    "baseBranch": "hangman-kata-seed4j-base",
+    "baseCommit": "8a3c3b5cfc1f520d3ab4d069ddc219de724c6e9e"
+  },
+  "run": {
+    "executionIndex": 2,
+    "alias": "terra-xhigh",
+    "branch": "hangman-kata-terra-xhigh",
+    "model": "gpt-5.6-terra",
+    "reasoningEffort": "xhigh",
+    "taskId": "01a083de-8263-74d2-960a-a30524ce5872",
+    "taskTitle": "hangman-kata-terra-xhigh",
+    "prompt": "Implement the specification in SPEC.md using the already-installed Seed4J CLI tool as support.",
+    "promptSha256": "06ac1ad554b276bfd6227d0eda17408d4421bfd95a5a5a5afe1c417061003283",
+    "status": "passed",
+    "deliveryActor": "model",
+    "implementationCommit": "f463cb061ade07c1adf060664f8da718338664a4"
+  },
+  "seed4j": {
+    "cliVersion": "0.0.4",
+    "runtimeVersion": "2.2.0",
+    "runtimeMode": "standard",
+    "skillTreeSha256": "93b17f5b4a53d747f2b33f815984c56b297f52859b1f1825f8cce44eadba078c"
+  },
+  "validation": {
+    "command": "./mvnw verify",
+    "exitCode": 0,
+    "summary": "BUILD SUCCESS; 8 tests ran with no failures, errors, or skipped tests."
+  },
+  "transcript": {
+    "path": "CONVERSATION_TRANSCRIPT.md",
+    "source": "Codex rollout JSONL",
+    "lastOrdinal": 249,
+    "sha256": "8db5871f915961ba4cc8fd5d0456115a31d43c518942b5ab2adf1393c945b957"
+  }
+}
