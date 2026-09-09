@@ -1,42 +1,29 @@
 # Hangman Kata
 
-## Prerequisites
+A small Java library implementing the Hangman game rules in [SPEC.md](SPEC.md).
 
-### Java
+## Requirements
 
-You need to have Java 25:
+- Java 25
 
-- [JDK 25](https://openjdk.java.net/projects/jdk/25/)
-
-### Node.js and NPM
-
-Before you can build this project, you must install and configure the following dependencies on your machine:
-
-[Node.js](https://nodejs.org/): We use Node to run a development web server and build the project.
-Depending on your system, you can install Node either from source or as a pre-packaged bundle.
-
-After installing Node, you should be able to run the following command to install development tools.
-You will only need to run this command when dependencies change in [package.json](package.json).
-
-```
-npm install
-```
-
-## Local environment
-
-
-<!-- seed4j-needle-localEnvironment -->
-
-## Start up
+## Test
 
 ```bash
-./mvnw
+./mvnw verify
 ```
 
+## Usage
 
-<!-- seed4j-needle-startupCommand -->
+```java
+var game = new Hangman("puzzle", 3);
 
-## Documentation
+game.getMaskedWord(); // "______"
+game.guess('z');      // GuessResult.CORRECT
+game.getMaskedWord(); // "__ZZ__"
+game.guess('x');      // GuessResult.INCORRECT
+game.getRemainingGuesses(); // 2
+```
 
-
-<!-- seed4j-needle-documentation -->
+`Hangman` accepts ASCII letters (`A`–`Z`) and normalizes words and guesses to uppercase. Use
+`getGameState()` to check for `IN_PROGRESS`, `WON`, or `LOST`; incorrect guesses and masked-word
+state are available through `getIncorrectGuesses()` and `getMaskedWord()`.
